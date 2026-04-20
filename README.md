@@ -6,8 +6,6 @@
 
 - Streamlined, optimized workflow -- packages multiple projects into a single repo and imports components directly from the shared workspace instead of a multi-step, cloud-driven approach
 
----
-
 ### Atomic Design Structure
 
 Components are grouped based on atomic design principles:
@@ -118,6 +116,8 @@ Button/
     - Atomic changes propagate system-wide
       _(e.g., updating a button style affects all usages)_
 
+---
+
 ## Package Management System: pnpm
 
 ### Why pnpm over npm?
@@ -129,6 +129,8 @@ Button/
 - Simplifies monorepo management via pnpm-workspace.yaml
 - Cleaner organization and fewer merge conflicts
 - More readable configuration (minimal YAML vs JSON sprawl)
+
+---
 
 ## Build Tool: Vite
 
@@ -150,9 +152,13 @@ Thus, no need for fully-featured full-stack framework like `Next.js` or `React R
 - Framework: React
 - Variant: TypeScript + React Compiler
 
+---
+
 ## Frontend Package Library, Playground, and Documentation Hub: Storybook
 
 - Industry-standard tool for building and testing UI components in isolation to support component design system development
+
+---
 
 ## Linting & Code Quality
 
@@ -183,12 +189,16 @@ Why?
 
 ### Visual Regression Testing: Chromatic or Jest-Image-Snapshot w/ Puppeteer (TODO)
 
+---
+
 ## Accessibility
 
 Accordion Pattern (Show/Hide)
 
 - Reference:
   https://www.w3.org/WAI/ARIA/apg/patterns/accordion/
+
+---
 
 ## CSS Methodology: BEM
 
@@ -206,6 +216,8 @@ Accordion Pattern (Show/Hide)
 - Clear, predictable naming system
   **Flexibility**
 - Works alongside other tools and methodologies
+
+---
 
 ## Current Component Architectural Approach: Data-Driven
 
@@ -225,6 +237,8 @@ For sake of time, opted for data-driven approach
 - Easy to serialize, transform, and generate data from internal / external APIs or CMS content
 - Straight-forward implementation for snapshot-style Storybook examples
 - Structured data is easy to configure, mock-up, etc.
+
+---
 
 ## Future Direction: Compound Components
 
@@ -257,6 +271,8 @@ For sake of time, opted for data-driven approach
 - **Compound APIs** → more scalable, flexible, and industry-aligned
 
 The long-term direction should favor **compound / composable components** for a robust design system.
+
+---
 
 ## TODO - Implement the following:
 
