@@ -319,3 +319,26 @@ The long-term direction should favor **compound / composable components** for a 
 - Performance Audits / Optimizations
 - Telemetry / Analytics Integrations (`New Relic`, `Splunk`, `Grafana`, `Datadog`, etc.)
 - AI-Driven Insights / Product Design Development
+- Tighten Data Sovereignty Requirements
+  - Reduce reliance on third-party services (like `Storybook`) in favor of internal / proprietary software, systems, services and tools
+  - Why?
+    - Legal and regulatory control
+    - Reduced dependency on external vendors
+      - Cuts costs
+      - Gives the company / shareholders more control over infra, reduces security risks, and mitigates unclear legal exposure
+      - _Paramount for a ubiquitous financial institution like American Express_
+    - Predictable compliance posture
+      - More control allows better enforcement of determinism, and policy compliance
+  - Ultimately, the company will need to strike an ideal balance that best satisfies the company's needs
+    - Options:
+      - Fully internal (`high sovereignty`)
+        - On-prem / sovereign cloud
+        - Custom-built tools and services
+      - Hybrid
+        - Internal control over sensitive data layers
+        - External tools for non-sensitive workflows
+      - Vendor adoption with sovereignty guarantees
+        - Cloud / SAAS providers that support:
+          - Regional isolation
+          - Data residency guarantees
+          - "`Sovereign cloud`" offerings
