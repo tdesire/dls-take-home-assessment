@@ -23,7 +23,7 @@ pnpm run storybook
 
 ---
 
-## Ideal Application Architecture: Atomic Monorepo
+## Ideal Application Architecture: **Atomic Monorepo**
 
 ### Why a Monorepo?
 
@@ -58,11 +58,11 @@ Components are grouped based on atomic design principles:
 
 Components can only depend on lower level atomic structures, not the other way around
 
-- Atoms → no dependencies
-- Molecules → atoms
-- Organisms → molecules + atoms
-- Templates → organisms + molecules + atoms
-- Pages → templates + all lower levels
+- `Atoms` → no dependencies
+- `Molecules` → atoms
+- `Organisms` → molecules + atoms
+- `Templates` → organisms + molecules + atoms
+- `Pages` → templates + all lower levels
 
 ### Application Tree Structure
 
@@ -142,9 +142,9 @@ Button/
 
 ---
 
-## Package Management System: pnpm
+## Package Management System: **pnpm**
 
-### Why pnpm over npm?
+### Why `pnpm` over `npm`?
 
 - Saves disk space
 - Faster install/reinstall times
@@ -156,7 +156,7 @@ Button/
 
 ---
 
-## Build Tool: Vite
+## Build Tool: **Vite**
 
 ### Why Vite?
 
@@ -169,16 +169,16 @@ Button/
   - Complex routing
   - Async integration with external APIs
 
-Thus, no need for fully-featured full-stack framework like `Next.js` or `React Router`
+Thus, no need to instrument a fully-featured full-stack framework like `Next.js` or `React Router`
 
 ### Presets
 
-- Framework: React
-- Variant: TypeScript + React Compiler
+- Framework: `React`
+- Variant: `TypeScript` + `React Compiler`
 
 ---
 
-## Frontend Package Library, Playground, and Documentation Hub: Storybook
+## Frontend Package Library, Playground, and Documentation Hub: **Storybook**
 
 - Industry-standard tool for building and testing UI components in isolation to support component design system development
 
@@ -224,7 +224,7 @@ Accordion Pattern (Show/Hide)
 
 ---
 
-## CSS Methodology: BEM
+## CSS Methodology: **BEM**
 
 **Why BEM?**
 **Simplicity**
@@ -251,7 +251,7 @@ Accordion Pattern (Show/Hide)
 
 ---
 
-## Current Component Architectural Approach: Data-Driven
+## Current Component Architectural Approach: **Data-Driven**
 
 ```text
   <Accordion
@@ -272,7 +272,7 @@ For sake of time, opted for data-driven approach
 
 ---
 
-## Future Direction: Compound Components
+## Future Direction: **Compound Components**
 
 ```text
 <Accordion shouldAllowMultipleExpanded>
@@ -312,4 +312,5 @@ The long-term direction should favor **compound / composable components** for a 
 - Theming
 - Mixins
 - Icons
+- Custom Hooks
 - Utils/Helpers
