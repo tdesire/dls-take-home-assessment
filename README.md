@@ -1,6 +1,6 @@
 # DLS Take Home Assessment
 
-## Usage: How to Instantiate Storybook Workshop Instance
+## Usage: How to Instantiate Storybook Workshop
 
 1. Install pnpm packages
 
@@ -20,8 +20,6 @@ cd ui
 ```
 pnpm run storybook
 ```
-
-4. Enjoy!!! :)
 
 ---
 
