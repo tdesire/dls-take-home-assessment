@@ -1,5 +1,30 @@
 # DLS Take Home Assessment
 
+## Usage: How to Instantiate Storybook Workshop Instance
+
+1. Install pnpm packages
+
+```
+pnpm install
+```
+
+2. CD into the UI package repository
+
+```text
+cd packages
+cd ui
+```
+
+3. Run Storybook
+
+```
+pnpm run storybook
+```
+
+4. Enjoy!!! :)
+
+---
+
 ## Ideal Application Architecture: Atomic Monorepo
 
 ### Why a Monorepo?
