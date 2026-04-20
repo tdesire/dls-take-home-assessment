@@ -236,16 +236,16 @@ Accordion Pattern (Show/Hide)
 - Independent blocks reduce coupling
 - Avoids cascade/inheritance issues
 
-  **Reusability**
+**Reusability**
 
 - Encourages reusable style compositions
 - Reduces long-term CSS duplication
 
-  **Structure**
+**Structure**
 
 - Clear, predictable naming system
 
-  **Flexibility**
+**Flexibility**
 
 - Works alongside other tools and methodologies
 
