@@ -331,8 +331,8 @@ Reduce reliance on third-party services (like `Storybook`) in favor of internal 
     - Gives the company / shareholders more control over infra, reduces security risks, and mitigates unclear legal exposure
     - _Paramount for a ubiquitous financial institution like American Express_
   - Predictable compliance posture
-    - More control allows better enforcement of determinism, and policy compliance
-- Ultimately, the company will need to strike an ideal balance that best satisfies the company's needs
+    - More control supports better enforcement of data determinism, and policy compliance
+- Ultimately, the company will need to strike an ideal balance that best satisfies the needs of its business model
   - Options:
     - Fully internal (`high sovereignty`)
       - On-prem / sovereign cloud
