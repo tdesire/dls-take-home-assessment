@@ -23,7 +23,7 @@ pnpm run storybook
 
 ---
 
-## Ideal Application Architecture: **Atomic Monorepo**
+## Ideal Application Architecture: `Atomic Monorepo`
 
 ### Why a Monorepo?
 
@@ -142,7 +142,7 @@ Button/
 
 ---
 
-## Package Management System: **pnpm**
+## Package Management System: `pnpm`
 
 ### Why `pnpm` over `npm`?
 
@@ -156,7 +156,7 @@ Button/
 
 ---
 
-## Build Tool: **Vite**
+## Build Tool: `Vite`
 
 ### Why Vite?
 
@@ -178,7 +178,7 @@ Thus, no need to instrument a fully-featured full-stack framework like `Next.js`
 
 ---
 
-## Frontend Package Library, Playground, and Documentation Hub: **Storybook**
+## Frontend Package Library, Playground, and Documentation Hub: `Storybook`
 
 - Industry-standard tool for building and testing UI components in isolation to support component design system development
 
@@ -224,7 +224,7 @@ Accordion Pattern (Show/Hide)
 
 ---
 
-## CSS Methodology: **BEM**
+## CSS Methodology: `BEM`
 
 **Why BEM?**
 **Simplicity**
@@ -251,7 +251,7 @@ Accordion Pattern (Show/Hide)
 
 ---
 
-## Current Component Architectural Approach: **Data-Driven**
+## Current Component Architectural Approach: `Data-Driven`
 
 ```text
   <Accordion
@@ -272,7 +272,7 @@ For sake of time, opted for data-driven approach
 
 ---
 
-## Future Direction: **Compound Components**
+## Future Direction: `Compound Components`
 
 ```text
 <Accordion shouldAllowMultipleExpanded>
@@ -308,9 +308,14 @@ The long-term direction should favor **compound / composable components** for a 
 
 ## TODO - Implement the following:
 
+- Mobile-First Responsive Design
 - Typography
 - Theming
 - Mixins
 - Icons
 - Custom Hooks
 - Utils/Helpers
+- SEO
+- Performance Audits / Optimizations
+- Telemetry / Analytics Integrations (`New Relic`, `Splunk`, `Grafana`, `Datadog`, etc.)
+- AI-Driven Insights / Product Design Development
