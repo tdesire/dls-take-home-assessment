@@ -27,7 +27,7 @@ pnpm run storybook
 
 ### Why a Monorepo?
 
-- Streamlined, optimized workflow -- packages multiple projects into a single repo and imports components directly from the shared workspace instead of a multi-step, cloud-driven approach
+Streamlined, optimized workflow -- packages multiple projects into a single repo and imports components directly from the shared workspace instead of a multi-step, cloud-driven approach
 
 ### Atomic Design Structure
 
@@ -56,12 +56,13 @@ Components are grouped based on atomic design principles:
 
 ### Dependency Direction (Strict Flow)
 
-- Components can only depend on lower level atomic structures, not the other way around
-  - Atoms → no dependencies
-  - Molecules → atoms
-  - Organisms → molecules + atoms
-  - Templates → organisms + molecules + atoms
-  - Pages → templates + all lower levels
+Components can only depend on lower level atomic structures, not the other way around
+
+- Atoms → no dependencies
+- Molecules → atoms
+- Organisms → molecules + atoms
+- Templates → organisms + molecules + atoms
+- Pages → templates + all lower levels
 
 ### Application Tree Structure
 
@@ -99,7 +100,7 @@ dls-take-home-assessment/
 - Monorepo maintainability
 - Practical React tooling alignment
 
-#### _Disclaimer: or sake of time and brevity, I've only fleshed out the core design system as follows:_
+#### _Disclaimer: For sake of time and brevity, I've only fleshed out the core design system as follows:_
 
 ```text
 packages/ui/src/
