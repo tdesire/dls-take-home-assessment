@@ -1,0 +1,117 @@
+.accordion-item {
+  border: 1px solid #7a7574;
+  border-radius: 0.25rem;
+  background: #fff;
+}
+
+.accordion-item + .accordion-item {
+  margin-top: 0.75rem;
+}
+
+.accordion-item__heading {
+  margin: 0;
+}
+
+.accordion-item__trigger {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+  min-height: 3rem;
+  padding: 0.75rem 1rem;
+  border: 0;
+  background: #f7f4f2;
+  color: #1b1b1b;
+  font: inherit;
+  font-weight: 700;
+  text-align: left;
+  cursor: pointer;
+}
+
+.accordion-item__trigger:hover {
+  background: #efe9e5;
+}
+
+.accordion-item__trigger:focus-visible {
+  outline: 3px solid #005fcc;
+  outline-offset: 2px;
+  z-index: 1;
+}
+
+.accordion-item__title {
+  flex: 1 1 auto;
+}
+
+.accordion-item__icon {
+  position: relative;
+  flex: 0 0 auto;
+  width: 1rem;
+  height: 1rem;
+  border: 1px solid currentColor;
+  border-radius: 2px;
+}
+
+.accordion-item__icon::before,
+.accordion-item__icon::after {
+  content: "";
+  position: absolute;
+  background: currentColor;
+}
+
+.accordion-item__icon::before {
+  top: 50%;
+  left: 0.1875rem;
+  right: 0.1875rem;
+  height: 2px;
+  transform: translateY(-50%);
+}
+
+.accordion-item__icon::after {
+  top: 0.1875rem;
+  bottom: 0.1875rem;
+  left: 50%;
+  width: 2px;
+  transform: translateX(-50%);
+}
+
+.accordion-item--expanded .accordion-item__icon::after {
+  display: none;
+}
+
+.accordion-item__panel {
+  padding: 0 1rem 1rem 1rem;
+  background: #fff;
+}
+
+.accordion-item__content {
+  padding-top: 0.75rem;
+  border-top: 1px solid #d0c7c2;
+  color: #1b1b1b;
+}
+
+.accordion-item--disabled .accordion-item__trigger {
+  cursor: default;
+  opacity: 0.85;
+}
+
+@media (forced-colors: active) {
+  .accordion-item,
+  .accordion-item__icon {
+    border-color: CanvasText;
+  }
+
+  .accordion-item__trigger {
+    background: Canvas;
+    color: CanvasText;
+  }
+
+  .accordion-item__trigger:focus-visible {
+    outline-color: 1px solid #036;
+  }
+
+  .accordion-item__content {
+    border-top-color: CanvasText;
+  }
+}
