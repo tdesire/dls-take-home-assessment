@@ -230,15 +230,23 @@ Accordion Pattern (Show/Hide)
 **Simplicity**
 
 - Easy to implement via naming conventions
-  **Modularity**
+
+**Modularity**
+
 - Independent blocks reduce coupling
 - Avoids cascade/inheritance issues
+
   **Reusability**
+
 - Encourages reusable style compositions
 - Reduces long-term CSS duplication
+
   **Structure**
+
 - Clear, predictable naming system
+
   **Flexibility**
+
 - Works alongside other tools and methodologies
 
 ---
